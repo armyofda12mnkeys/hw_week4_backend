@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { ethers } from 'ethers';
-import * as tokenJson from './assets/MyERC20.json';
+import * as tokenJson from './assets/MyToken.json';
 //import * as tokenJson from './assets/JC212/VoteToken.json';
 import * as dotenv from 'dotenv'; // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
 dotenv.config();
